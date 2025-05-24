@@ -1,0 +1,70 @@
+/* You can add global styles to this file, and also import other style files */
+
+// Paleta de colores
+$primary: #d32f2f; // rojo
+$accent: #616161; // gris
+$warn: #000000; // negro
+$background: #f5f5f5;
+$text: #212121;
+
+html, body {
+  height: 100%;
+  background: $background;
+  color: $text;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background: $background;
+  color: $text;
+}
+
+.mat-toolbar {
+  background: $primary !important;
+  color: #fff !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background 0.3s;
+}
+
+.mat-card {
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  background: #fff;
+  margin-bottom: 2rem;
+  transition: box-shadow 0.3s;
+}
+
+.mat-raised-button, .mat-flat-button, .mat-stroked-button {
+  border-radius: 8px !important;
+  font-weight: 500;
+  transition: background 0.3s, color 0.3s;
+}
+
+.mat-icon-button {
+  border-radius: 50% !important;
+  transition: background 0.3s;
+}
+
+.mat-table {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.mat-header-row, .mat-row {
+  transition: background 0.2s;
+}
+
+.mat-header-row {
+  background: $accent;
+  color: #fff;
+}
+
+.mat-row:hover {
+  background: #ffeaea;
+}
+
+.mat-progress-spinner circle {
+  stroke: $primary;
+}

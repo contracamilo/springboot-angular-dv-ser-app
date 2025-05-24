@@ -1,0 +1,57 @@
+.product-list-container {
+  width: 90vw;
+  margin: 1rem auto 0 auto;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.mat-card-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #616161;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.mat-table {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.mat-header-cell, .mat-cell {
+  padding: 1rem 0.75rem;
+  font-size: 1.1rem;
+}
+
+.mat-header-cell {
+  background: #616161;
+  color: #fff;
+  font-weight: 600;
+}
+
+.mat-row {
+  transition: background 0.2s;
+}
+
+.mat-row:hover {
+  background: #ffeaea;
+}
+
+button[mat-icon-button] {
+  margin: 0 0.25rem;
+  transition: background 0.2s;
+}
+
+.mat-progress-spinner {
+  margin-left: 0.5rem;
+}
+
+.table-title {
+  font-size: 1.08rem;
+  color: #757575;
+  font-weight: 500;
+  margin: 1rem;
+  letter-spacing: 0.2px;
+}

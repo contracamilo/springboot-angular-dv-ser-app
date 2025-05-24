@@ -1,0 +1,42 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+mat-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+router-outlet {
+  display: block;
+}
+
+mat-toolbar button[mat-button] {
+  color: #fff !important;
+  font-weight: 500;
+  font-size: 1.08rem;
+  text-transform: none;
+  transition: background 0.2s, color 0.2s, text-decoration 0.2s;
+  border-radius: 6px;
+  margin-left: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+mat-toolbar button[mat-button]:hover {
+  background: rgba(255,255,255,0.12);
+  text-decoration: underline;
+}
+
+mat-toolbar mat-icon {
+  color: #fff !important;
+  margin-right: 0.25rem;
+}
